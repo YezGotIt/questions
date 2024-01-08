@@ -1,65 +1,70 @@
 {
-    "session": "311223",
-    "endGame": 1704123065019,
-    "questions": [
-      {
-        "type": "TWTO",
-        "question": "What was the first product for Meta Company?",
-        "options": ["whatsApp", "facebook", "google", "instagram"],
-        "hash": "ttcli8",
-        "show": true,
-        "generalType": "General knowledge",
-        "explanation": "The first product of Meta Company, originally known as Facebook Inc., was the Facebook social networking site, launched in 2004.",
-        "score": 20
-      },
-      {
-        "type": "TWTO",
-        "question": "What is the correct way to create a function in PHP?",
-        "options": [
-          "function: myFunction() {}",
-          "new function myFunction() {}",
-          "function myFunction() {}",
-          "create myFunction() {}"
-        ],
-        "hash": "zgsfi0",
-        "show": true,
-        "generalType": "PHP",
-        "explanation": "In PHP, functions are defined using the ` function ` keyword followed by the function name and parentheses.",
-        "score": 20
-      },
-      {
-        "type": "TWTO",
-        "question": "What is the primary purpose of a Solid-State Drive (SSD) in a computer?",
-        "options": [
-          "Processing Data",
-          "Storing Data",
-          "Cooling the System",
-          "Enhancing Graphics"
-        ],
-        "hash": "u7xx37",
-        "show": false,
-        "generalType": "General knowledge",
-        "explanation": "",
-        "score": 30
-      },
-      {
-        "type": "TWTO",
-        "question": "What does the ` include ` statement do in PHP?",
-        "options": [
-          "Executes functions from another file",
-          "Includes and evaluates a specified file",
-          "Imports classes from another file",
-          "Connects to a database"
-        ],
-        "hash": "79c1oh",
-        "show": true,
-        "generalType": "PHP",
-        "explanation": "The ` include ` statement in PHP is used to include and evaluate the specified file as part of the script.",
-        "score": 20
-      }
-    ],
-    "quote": {
-      "message": "Computers are good at following instructions, but not at reading your mind.",
-      "author": "Donald Knuth"
+  "session": "080124",
+  "questions": [
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "What technology is commonly used for two-factor authentication (2FA)?",
+      "options": [
+        "Biometrics",
+        "Firewalls",
+        "CAPTCHA",
+        "SMS"
+      ],
+      "hash": "ak4we5",
+      "generalType": "General knowledge",
+      "explanation": "SMS (Short Message Service) is commonly used for two-factor authentication (2FA). A user receives a text message with a code to confirm their identity in addition to their regular password, adding an extra layer of security.",
+      "score": "20"
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "What does 'USB' stand for in computing?",
+      "options": [
+        " Universal Serial Bus",
+        "United System Bridge",
+        " Universal System Bus",
+        "Unified Serial Bridge"
+      ],
+      "hash": "tq4vd5",
+      "generalType": "General knowledge",
+      "explanation": "USB stands for Universal Serial Bus. It is a standard type of connection for many different kinds of devices, including keyboards, mice, printers, and external storage devices.",
+      "score": "20"
+    },
+    {
+      "show": false,
+      "type": "TWTO",
+      "question": "What is the correct way to end a PHP statement?",
+      "options": [
+        ".",
+        ";",
+        ":",
+        "END"
+      ],
+      "hash": "rh8hbd",
+      "generalType": "PHP",
+      "explanation": "",
+      "score": "30"
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which of the following is a way to create an object in JavaScript?",
+      "options": [
+        "var obj = {};",
+        "var obj = new Object();",
+        "var obj = Object.create(null);",
+        "All of the above"
+      ],
+      "hash": "14h7q0m",
+      "generalType": "JavaScript",
+      "explanation": "In JavaScript, there are several ways to create objects. These include using object literals (e.g., `{}`), the `new Object()` constructor, and the `Object.create()` method.",
+      "score": "20"
     }
+  ],
+  "endGame": 1704768905212,
+  "quote": {
+    "message": "You don’t need to see the whole staircase, just take the first step.",
+    "author": "Martin Luther King Jr"
   }
+}
