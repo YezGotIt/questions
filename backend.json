@@ -1,70 +1,160 @@
 {
-  "session": "080124",
+  "session": "150124",
   "questions": [
     {
       "show": true,
       "type": "TWTO",
-      "question": "What technology is commonly used for two-factor authentication (2FA)?",
+      "question": "What does HTML stand for?",
       "options": [
-        "Biometrics",
-        "Firewalls",
-        "CAPTCHA",
-        "SMS"
+        "High Text Markup Language",
+        "Hyper Tabular Markup Language",
+        "Hyper Text Markup Language",
+        "None of the above"
       ],
-      "hash": "ak4we5",
-      "generalType": "General knowledge",
-      "explanation": "SMS (Short Message Service) is commonly used for two-factor authentication (2FA). A user receives a text message with a code to confirm their identity in addition to their regular password, adding an extra layer of security.",
+      "hash": "12ck5ap",
+      "generalType": "HTML",
+      "explanation": "HTML stands for Hyper Text Markup Language. It is the standard markup language for documents designed to be displayed in a web browser.",
       "score": 20
     },
     {
       "show": true,
       "type": "TWTO",
-      "question": "What does 'USB' stand for in computing?",
+      "question": "Which of the following elements is used for making any text bold in HTML?",
       "options": [
-        "Universal Serial Bus",
-        "United System Bridge",
-        "Universal System Bus",
-        "Unified Serial Bridge"
+        "`<p>`",
+        "`<i>`",
+        "`<li>`",
+        "`<b>`"
       ],
-      "hash": "1dgarkn",
-      "generalType": "General knowledge",
-      "explanation": "USB stands for Universal Serial Bus. It is a standard type of connection for many different kinds of devices, including keyboards, mice, printers, and external storage devices.",
+      "hash": "1961g6a",
+      "generalType": "HTML",
+      "explanation": "The `<b>` tag is used to define bold text in an HTML document.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which of the following attributes is used to add link to any element?",
+      "options": [
+        "link",
+        "href",
+        "ref",
+        "newref"
+      ],
+      "hash": "ep4if5",
+      "generalType": "HTML",
+      "explanation": "The `href` attribute is used in an anchor tag (`<a>`) to specify the URL of the page the link goes to.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "How can you make a numbered list in HTML?",
+      "options": [
+        "`<ul>`",
+        "`<dl>`",
+        "`<ol>`",
+        "`<list>`"
+      ],
+      "hash": "1vg7ia2",
+      "generalType": "HTML",
+      "explanation": "`<ol>` is used for creating an ordered list, where items are numbered.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which tag is used to create a dropdown list in HTML?",
+      "options": [
+        "`<select>`",
+        "`<list>`",
+        "`<dl>`",
+        "`<ul>`"
+      ],
+      "hash": "owjnvt",
+      "generalType": "HTML",
+      "explanation": "The `<select>` tag is used to create a dropdown list in HTML.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which HTML tag is used for displaying the largest heading?",
+      "options": [
+        "`<h6>`",
+        "`<heading>`",
+        "`<h1>`",
+        "`<head>`"
+      ],
+      "hash": "2yla8g",
+      "generalType": "HTML",
+      "explanation": "`<h1>` defines the largest heading in HTML.",
+      "score": 18
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": " What is the purpose of the `<div>` tag in HTML?",
+      "options": [
+        "For creating different sections",
+        "For adding a title",
+        "For creating a table",
+        "For inserting an image"
+      ],
+      "hash": "18zslxm",
+      "generalType": "HTML",
+      "explanation": "The `<div>` tag is used to define a division or a section in an HTML document.",
       "score": 20
     },
     {
       "show": false,
       "type": "TWTO",
-      "question": "What is the correct way to end a PHP statement?",
+      "question": "Which attribute specifies a unique identifier for an HTML element?",
       "options": [
-        ".",
-        ";",
-        ":",
-        "END"
+        "class",
+        "id",
+        "src",
+        "alt"
       ],
-      "hash": "rh8hbd",
-      "generalType": "PHP",
+      "hash": "1h232vk",
+      "generalType": "HTML",
       "explanation": "",
       "score": 30
     },
     {
       "show": true,
       "type": "TWTO",
-      "question": "Which of the following is a way to create an object in JavaScript?",
+      "question": "Which of the following HTML elements is used for inserting a line break?",
       "options": [
-        "var obj = {};",
-        "var obj = new Object();",
-        "var obj = Object.create(null);",
-        "All of the above"
+        "`<br>`",
+        "`<break>`",
+        "`<lb>`",
+        "`<line>`"
       ],
-      "hash": "14h7q0m",
-      "generalType": "JavaScript",
-      "explanation": "In JavaScript, there are several ways to create objects. These include using object literals (e.g., `{}`), the `new Object()` constructor, and the `Object.create()` method.",
+      "hash": "6lmf3h",
+      "generalType": "HTML",
+      "explanation": "`<br>` is used to insert a single line break.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "What does the `<canvas>` element in HTML5 do?",
+      "options": [
+        "Creates a container for an image",
+        "Creates a draggable element",
+        "Used to draw graphics on a web page",
+        "Defines a section within a document"
+      ],
+      "hash": "1viqzdv",
+      "generalType": "HTML",
+      "explanation": "The `<canvas>` element is used to draw graphics on a web page via scripting (usually JavaScript).",
       "score": 20
     }
   ],
-  "endGame": 1704768905212,
+  "endGame": 1705382123321,
   "quote": {
-    "message": "You don’t need to see the whole staircase, just take the first step.",
-    "author": "Martin Luther King Jr"
+    "message": "Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.",
+    "author": "william james"
   }
 }
