@@ -1,160 +1,154 @@
 {
-  "session": "150124",
-  "questions": [
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "What does HTML stand for?",
-      "options": [
-        "High Text Markup Language",
-        "Hyper Tabular Markup Language",
-        "Hyper Text Markup Language",
-        "None of the above"
-      ],
-      "hash": "12ck5ap",
-      "generalType": "HTML",
-      "explanation": "HTML stands for Hyper Text Markup Language. It is the standard markup language for documents designed to be displayed in a web browser.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which of the following elements is used for making any text bold in HTML?",
-      "options": [
-        "`<p>`",
-        "`<i>`",
-        "`<li>`",
-        "`<b>`"
-      ],
-      "hash": "1961g6a",
-      "generalType": "HTML",
-      "explanation": "The `<b>` tag is used to define bold text in an HTML document.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which of the following attributes is used to add link to any element?",
-      "options": [
-        "link",
-        "href",
-        "ref",
-        "newref"
-      ],
-      "hash": "ep4if5",
-      "generalType": "HTML",
-      "explanation": "The `href` attribute is used in an anchor tag (`<a>`) to specify the URL of the page the link goes to.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "How can you make a numbered list in HTML?",
-      "options": [
-        "`<ul>`",
-        "`<dl>`",
-        "`<ol>`",
-        "`<list>`"
-      ],
-      "hash": "1vg7ia2",
-      "generalType": "HTML",
-      "explanation": "`<ol>` is used for creating an ordered list, where items are numbered.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which tag is used to create a dropdown list in HTML?",
-      "options": [
-        "`<select>`",
-        "`<list>`",
-        "`<dl>`",
-        "`<ul>`"
-      ],
-      "hash": "owjnvt",
-      "generalType": "HTML",
-      "explanation": "The `<select>` tag is used to create a dropdown list in HTML.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which HTML tag is used for displaying the largest heading?",
-      "options": [
-        "`<h6>`",
-        "`<heading>`",
-        "`<h1>`",
-        "`<head>`"
-      ],
-      "hash": "2yla8g",
-      "generalType": "HTML",
-      "explanation": "`<h1>` defines the largest heading in HTML.",
-      "score": 18
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": " What is the purpose of the `<div>` tag in HTML?",
-      "options": [
-        "For creating different sections",
-        "For adding a title",
-        "For creating a table",
-        "For inserting an image"
-      ],
-      "hash": "18zslxm",
-      "generalType": "HTML",
-      "explanation": "The `<div>` tag is used to define a division or a section in an HTML document.",
-      "score": 20
-    },
-    {
-      "show": false,
-      "type": "TWTO",
-      "question": "Which attribute specifies a unique identifier for an HTML element?",
-      "options": [
-        "class",
-        "id",
-        "src",
-        "alt"
-      ],
-      "hash": "1h232vk",
-      "generalType": "HTML",
-      "explanation": "",
-      "score": 30
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which of the following HTML elements is used for inserting a line break?",
-      "options": [
-        "`<br>`",
-        "`<break>`",
-        "`<lb>`",
-        "`<line>`"
-      ],
-      "hash": "6lmf3h",
-      "generalType": "HTML",
-      "explanation": "`<br>` is used to insert a single line break.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "What does the `<canvas>` element in HTML5 do?",
-      "options": [
-        "Creates a container for an image",
-        "Creates a draggable element",
-        "Used to draw graphics on a web page",
-        "Defines a section within a document"
-      ],
-      "hash": "1viqzdv",
-      "generalType": "HTML",
-      "explanation": "The `<canvas>` element is used to draw graphics on a web page via scripting (usually JavaScript).",
-      "score": 20
+    "session": "250124",
+    "questions": [
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What does SQL stand for?",
+        "options": [
+          "Simple Query Language",
+          "Structured Query Language",
+          "Standard Query Language",
+          "Sequential Query Language"
+        ],
+        "hash": "zlckvn",
+        "generalType": "SQL",
+        "explanation": "SQL stands for Structured Query Language. It's a standard language for accessing and manipulating databases.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which SQL statement is used to extract data from a database?",
+        "options": [
+          "OPEN",
+          "EXTRACT",
+          "SELECT",
+          "GET"
+        ],
+        "hash": "1fwad6u",
+        "generalType": "SQL",
+        "explanation": "The SELECT statement is used to select data from a database. It's the most commonly used statement to query a database.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which SQL statement is used to update data in a database?",
+        "options": [
+          "MODIFY",
+          "UPDATE",
+          "CHANGE",
+          "ALTER"
+        ],
+        "hash": "t3hjb2",
+        "generalType": "SQL",
+        "explanation": "The UPDATE statement is used to modify the existing records in a database.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "The DELETE statement in SQL is used to delete the schema of a table but not the data within it.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "hash": "1sxu8fo",
+        "generalType": "SQL",
+        "explanation": "The DELETE statement in SQL is used to remove records from a table, not the schema of the table. The structure of the table remains intact.",
+        "score": 10
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": " How do you select a column named \"FirstName\" from a table named \"Employees\"?",
+        "options": [
+          "SELECT 'FirstName' FROM Employees",
+          "EXTRACT FirstName FROM Employees",
+          "GET FirstName FROM Employees",
+          "SELECT FirstName FROM Employees"
+        ],
+        "hash": "f1piu2",
+        "generalType": "SQL",
+        "explanation": "The correct syntax to select a column is to use the SELECT statement followed by the column name and the FROM keyword with the table name.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is the purpose of the WHERE clause in SQL?",
+        "options": [
+          "To specify the destination of a query",
+          "To sort the result-set",
+          "To limit the result-set based on a condition",
+          "To join tables"
+        ],
+        "hash": "um55el",
+        "generalType": "SQL",
+        "explanation": "The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "In SQL, the INSERT INTO statement is used to add new rows to a table.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "hash": "q10uk3",
+        "generalType": "SQL",
+        "explanation": "The INSERT INTO statement in SQL is indeed used to add new rows of data to a table in a database.",
+        "score": 10
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which SQL keyword is used to sort the result-set?",
+        "options": [
+          "SORT BY",
+          "ORDER BY",
+          "ALIGN BY",
+          "GROUP BY"
+        ],
+        "hash": "1bxhasr",
+        "generalType": "SQL",
+        "explanation": "The ORDER BY keyword is used to sort the result-set in ascending or descending order.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "How can you insert a new row into a table named \"Users\"?",
+        "options": [
+          "ADD INTO Users VALUES (...)",
+          "INSERT INTO Users VALUES (...)",
+          "UPDATE INTO Users SET (...)",
+          "CREATE NEW ROW IN Users (...)"
+        ],
+        "hash": "1hsidt",
+        "generalType": "SQL",
+        "explanation": "The INSERT INTO statement is used to insert new records in a table.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "The JOIN clause in SQL is only used for combining rows within the same table.",
+        "options": [
+          "True",
+          "False"
+        ],
+        "hash": "1sxu8fo",
+        "generalType": "SQL",
+        "explanation": "The JOIN clause is used to combine rows from two or more tables, based on a related column between them. It is not limited to rows within the same table.",
+        "score": 10
+      }
+    ],
+    "endGame": 1706240912176,
+    "quote": {
+      "message": "What you lack in talent can be made up with desire, hustle and giving 110% all the time.",
+      "author": "Don Zimmer"
     }
-  ],
-  "endGame": 1705382123321,
-  "quote": {
-    "message": "Be not afraid of life. Believe that life is worth living, and your belief will help create the fact.",
-    "author": "william james"
   }
-}
