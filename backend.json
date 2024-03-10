@@ -73,7 +73,7 @@
         "generalType": "SQL",
         "explanation": "The correct syntax to select a column is to use the SELECT statement followed by the column name and the FROM keyword with the table name.",
         "score": 20
-      },  
+      }  
     ],
     "endGame": 1710138658868,
     "quote": {
