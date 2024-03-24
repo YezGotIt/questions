@@ -1,0 +1,81 @@
+{
+  "session": "160324",
+  "questions": [
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Bluetooth technology was named after a 10th-century king, Harald Bluetooth, who united Denmark and Norway.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "hash": "q10uk3",
+      "generalType": "GK",
+      "explanation": "Bluetooth technology is indeed named after Harald Bluetooth, a king who united parts of Denmark and Norway. The technology was named so because it was intended to unite devices in a wireless manner.",
+      "score": 10
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "The Python programming language is named after the British comedy group Monty Python.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "hash": "q10uk3",
+      "generalType": "GK",
+      "explanation": "The Python programming language was indeed named after Monty Python, a British comedy group. The language's creator, Guido van Rossum, wanted a name that was short, unique, and slightly mysterious, hence the homage to Monty Python.",
+      "score": 10
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which element is used for writing inline CSS?",
+      "options": [
+        "`<style>`",
+        "`<css>`",
+        "`<link>`",
+        "`style`"
+      ],
+      "hash": "15m687n",
+      "generalType": "HTML",
+      "explanation": "The `style` attribute is used to apply inline CSS to an HTML element, directly in the markup.",
+      "score": 20
+    },
+    {
+      "show": false,
+      "type": "TWTO",
+      "question": "Which tag is used to specify an inline frame?",
+      "options": [
+        "`<iframe>`",
+        "`<frame>`",
+        "`<frameset>`",
+        "`<inlineframe>`"
+      ],
+      "hash": "1e01n60",
+      "generalType": "HTML",
+      "explanation": "The `<iframe>` tag is used to embed another document within the current HTML document, acting as an inline frame.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which statement correctly describes the scope of a `let` variable in JavaScript?",
+      "options": [
+        "Global scope if declared outside any function",
+        "Block scope",
+        "Function scope",
+        "No scope, it is always accessible"
+      ],
+      "hash": "1fz9rsm",
+      "generalType": "JavaScript",
+      "explanation": "Variables declared with `let` are limited in scope to the block, statement, or expression in which they are used, unlike the `var` keyword, which defines a variable globally or locally to an entire function regardless of block scope.",
+      "score": 20
+    }
+  ],
+  "endGame": 1710688800925,
+  "quote": {
+    "message": "The only thing standing in the way between you and your goal is the story you keep telling yourself as to why you can't achieve it.",
+    "author": "Jordan Belfort"
+  }
+}
