@@ -1,0 +1,85 @@
+{
+  "session": "250324",
+  "questions": [
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "India's first computer was installed at which institute?",
+      "options": [
+        "Indian Institute of Technology, Delhi",
+        "Indian Statistical Institute, Kolkata",
+        "Indian Institute of Science, Bangalore",
+        "Tata Institute of Fundamental Research, Mumbai"
+      ],
+      "hash": "1bgb5ww",
+      "generalType": "GK",
+      "explanation": "India's first computer was installed at the Indian Statistical Institute, Kolkata, in the early 1950s. It played a crucial role in promoting computer science research and education in India.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which Indian IT company is known as the first software services company from India to be listed on an American stock exchange?",
+      "options": [
+        "Infosys",
+        "Wipro",
+        "Tata Consultancy Services",
+        "HCL Technologies"
+      ],
+      "hash": "tj7fcm",
+      "generalType": "GK",
+      "explanation": "Infosys, founded in 1981, became the first Indian IT company to be listed on an American stock exchange (NASDAQ) in 1999. This was a landmark moment for the Indian IT industry.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "The Aadhaar project is one of the world's largest biometric ID systems. Which organization is responsible for implementing it?",
+      "options": [
+        "Reserve Bank of India",
+        "Ministry of Electronics and Information Technology",
+        "Unique Identification Authority of India",
+        "National Informatics Centre"
+      ],
+      "hash": "29b53v",
+      "generalType": "GK",
+      "explanation": "The Unique Identification Authority of India (UIDAI) is responsible for implementing the Aadhaar project, which provides a unique identity number to residents of India.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Who is the co-founder of Sun Microsystems, an influential company in the tech industry?",
+      "options": [
+        "Satya Nadella",
+        "Sundar Pichai",
+        "N. R. Narayana Murthy",
+        "Vinod Khosla"
+      ],
+      "hash": "q4ungv",
+      "generalType": "GK",
+      "explanation": "Vinod Khosla, an Indian-American entrepreneur, co-founded Sun Microsystems, which played a significant role in the development of networked computing.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which Indian entrepreneur founded the digital payments company Paytm?",
+      "options": [
+        "Vijay Shekhar Sharma",
+        "Nandan Nilekani",
+        "Bhavish Aggarwal",
+        "Binny Bansal"
+      ],
+      "hash": "77m50r",
+      "generalType": "GK",
+      "explanation": "Vijay Shekhar Sharma founded Paytm, an Indian digital payments and financial services company, which has significantly contributed to the growth of digital payments in India.",
+      "score": 20
+    }
+  ],
+  "endGame": 1714299944754,
+  "quote": {
+    "message": "Today’s accomplishments were yesterday’s impossibilities.",
+    "author": "Robert H. Schuller"
+  }
+}
