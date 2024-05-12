@@ -1,0 +1,86 @@
+{
+    "session": "130524",
+    "questions": [
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which layer of the OSI model is responsible for routing and addressing?",
+        "options": [
+          "Network Layer (Layer 3)",
+          "Data Link Layer (Layer 2)",
+          "Physical Layer (Layer 1)",
+          "Transport Layer (Layer 4)"
+        ],
+        "hash": "4o4oha",
+        "generalType": "Networking",
+        "explanation": "The Network Layer (Layer 3) is responsible for routing and addressing, as it determines the best path for forwarding packets between networks.",
+        "score": 25
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which of the following is NOT a layer in the IP model?",
+        "options": [
+          "Network Access Layer",
+          "Internet Layer",
+          "Transport Layer",
+          "Session Layer"
+        ],
+        "hash": "1ew7609",
+        "generalType": "Networking",
+        "explanation": "The IP model consists of four layers: Network Access Layer, Internet Layer, Transport Layer, and Application Layer. The Session Layer is part of the OSI model, not the IP model.",
+        "score": 35
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is the primary function of the Data Link Layer (Layer 2) in the OSI model?",
+        "options": [
+          "Routing and addressing",
+          "Error-free transfer of data frames",
+          "Providing services to end-user applications",
+          "Defining cable specifications"
+        ],
+        "hash": "1tvgs8b",
+        "generalType": "Networking",
+        "explanation": "The Data Link Layer (Layer 2) is responsible for error-free transfer of data frames between two devices on the same network.",
+        "score": 40
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which layer of the OSI model is divided into two sublayers: LLC (Logical Link Control) and MAC (Media Access Control)?",
+        "options": [
+          "Network Layer (Layer 3)",
+          "Data Link Layer (Layer 2)",
+          "Physical Layer (Layer 1)",
+          "Transport Layer (Layer 4)"
+        ],
+        "hash": "1vhbhpg",
+        "generalType": "Networking",
+        "explanation": "The Data Link Layer (Layer 2) is divided into two sublayers: LLC (Logical Link Control) and MAC (Media Access Control).",
+        "score": 35
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which of the following is a characteristic of the Connection-Oriented protocol in the Transport Layer (Layer 4)?",
+        "options": [
+          "No guarantee of delivery",
+          "Guaranteed delivery",
+          "Error-free transfer of data",
+          "No sequencing of packets"
+        ],
+        "hash": "11w8eu",
+        "generalType": "Networking",
+        "explanation": "Connection-Oriented protocols, such as TCP, guarantee delivery of data in the correct order, whereas Connectionless protocols, such as UDP, do not guarantee delivery.",
+        "score": 45
+      }
+    ],
+    "endGame": 1715613724320,
+    "quote": {
+      "message": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Lewis Carroll"
+    }
+  }
+  
