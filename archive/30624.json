@@ -1,0 +1,160 @@
+{
+    "session": "30624",
+    "questions": [
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is a common technique used by hackers to gain access to a user's login credentials by pretending to be a trustworthy entity in electronic communications?",
+        "options": [
+          "Phishing",
+          "DDoS",
+          "SQL Injection",
+          "Man-in-the-Middle"
+        ],
+        "hash": "11zjbch",
+        "generalType": "Hacking",
+        "explanation": "Phishing is a social engineering attack where attackers disguise themselves as trustworthy entities to trick victims into revealing sensitive information such as login credentials or credit card numbers.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which type of malware is designed to secretly record the keystrokes of a user, often used to steal personal information?",
+        "options": [
+          "Virus",
+          "Worm",
+          "Keylogger",
+          "Trojan Horse"
+        ],
+        "hash": "vs25fn",
+        "generalType": "Hacking",
+        "explanation": "A keylogger is a type of surveillance software that tracks and records every keystroke made on a computer. This information can then be used by hackers to steal sensitive data like passwords and credit card information.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What does the acronym DDoS stand for in the context of cybersecurity?",
+        "options": [
+          "Dynamic Denial of Service",
+          "Distributed Denial of Service",
+          "Delayed Denial of Service",
+          "Denied Distribution of Service"
+        ],
+        "hash": "ye22qj",
+        "generalType": "Hacking",
+        "explanation": "A Distributed Denial of Service (DDoS) attack involves multiple compromised systems attacking a single target, causing denial of service for users of the targeted system.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is the primary purpose of a firewall in network security?",
+        "options": [
+          "To monitor and control incoming and outgoing network traffic",
+          "To encrypt data",
+          "To provide a backup of data",
+          "To detect malware"
+        ],
+        "hash": "1phv4vu",
+        "generalType": "Hacking",
+        "explanation": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules, acting as a barrier between a trusted and untrusted network.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which of the following is a type of attack where the attacker intercepts and alters the communication between two parties without them knowing?",
+        "options": [
+          "SQL Injection",
+          "Phishing",
+          "Man-in-the-Middle",
+          "Brute Force"
+        ],
+        "hash": "1jcdtbj",
+        "generalType": "Hacking",
+        "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly intercepts and relays messages between two parties who believe they are communicating directly with each other.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "In the context of cybersecurity, what is the primary function of an IDS (Intrusion Detection System)?",
+        "options": [
+          "To prevent intrusions",
+          "To detect and alert on potential security breaches",
+          "To encrypt data",
+          "To repair system vulnerabilities"
+        ],
+        "hash": "542ztn",
+        "generalType": "Hacking",
+        "explanation": " An Intrusion Detection System (IDS) monitors network or system activities for malicious activities or policy violations and reports these to a management station.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which type of cyber attack involves an attacker inserting malicious code into a legitimate website's script to steal data or redirect users?",
+        "options": [
+          "Cross-Site Scripting (XSS)",
+          "SQL Injection",
+          "Phishing",
+          "Ransomware"
+        ],
+        "hash": "q6lvm0",
+        "generalType": "Hacking",
+        "explanation": "Cross-Site Scripting (XSS) is a security vulnerability that allows an attacker to inject malicious scripts into content from otherwise trusted websites, which can then execute in the browser of the victim who visits the compromised site.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is the main difference between a virus and a worm in the context of malware?",
+        "options": [
+          "A virus can replicate itself, while a worm cannot",
+          "A worm can replicate itself and spread without user intervention, while a virus needs to attach to a host file and requires user action to spread",
+          "A virus is a type of adware, while a worm is not",
+          "There is no difference; both are the same"
+        ],
+        "hash": "xv0svb",
+        "generalType": "Hacking",
+        "explanation": "A worm is a type of malware that can replicate itself and spread to other computers without any user action, whereas a virus attaches itself to a host file and requires user action to spread.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which cybersecurity principle ensures that data cannot be altered by unauthorized users?",
+        "options": [
+          "Confidentiality",
+          "Availability",
+          "Integrity",
+          "Non-repudiation"
+        ],
+        "hash": "1putx5x",
+        "generalType": "Hacking",
+        "explanation": "Integrity is a security principle that ensures data remains accurate and unaltered by unauthorized users, maintaining its consistency and trustworthiness.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is a zero-day exploit?",
+        "options": [
+          "An exploit that occurs on the first day of a new software release",
+          "An exploit that takes advantage of a previously unknown vulnerability",
+          "An exploit that targets outdated software",
+          "An exploit that has been patched but is still used"
+        ],
+        "hash": "wdyg1v",
+        "generalType": "Hacking",
+        "explanation": "A zero-day exploit is a cyber attack that occurs on the same day a vulnerability is discovered, exploiting it before developers have an opportunity to patch it.",
+        "score": 20
+      }
+    ],
+    "endGame": 1717474947154,
+    "quote": {
+      "message": "Do one thing every day that scares you.",
+      "author": "Eleanor Roosevelt"
+    }
+  }
