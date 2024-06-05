@@ -1,0 +1,161 @@
+{
+    "session": "50624",
+    "questions": [
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is a Cross-Site Scripting (XSS) attack?",
+        "options": [
+          "An attack that exploits a vulnerability in the DNS protocol",
+          "An attack that injects malicious scripts into web pages viewed by other users",
+          "An attack that targets the database directly",
+          "An attack that intercepts data in transit"
+        ],
+        "hash": "1xjoom",
+        "generalType": "Javscript + Hacking",
+        "explanation": "A Cross-Site Scripting (XSS) attack occurs when an attacker injects malicious scripts into content from otherwise trusted websites, which then gets executed by the user's browser.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which of the following is a characteristic of a SQL Injection attack?",
+        "options": [
+          "Exploiting a buffer overflow vulnerability",
+          "Injecting SQL commands into input fields to manipulate the database",
+          "Intercepting communications between two parties",
+          "Spoofing a legitimate user's identity"
+        ],
+        "hash": "14nyvuh",
+        "generalType": "Javscript + Hacking",
+        "explanation": "SQL Injection is a code injection technique that allows attackers to execute malicious SQL queries in the database, often through user input fields.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What does CSRF stand for in web security?",
+        "options": [
+          "Cross-Site Request Forgery",
+          "Cross-Site Resource Fetching",
+          "Client-Side Resource Forcing",
+          "Cross-Script Resource Forging"
+        ],
+        "hash": "ysm7it",
+        "generalType": "Javscript + Hacking",
+        "explanation": "CSRF stands for Cross-Site Request Forgery, an attack where an attacker tricks the victim into submitting a malicious request.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is a zero-day exploit?",
+        "options": [
+          "An exploit that occurs on the first day of a new software release",
+          "An exploit that takes advantage of a previously unknown vulnerability",
+          "An exploit that targets outdated software",
+          "An exploit that has been patched but is still used"
+        ],
+        "hash": "wdyg1v",
+        "generalType": "Javscript + Hacking",
+        "explanation": "A zero-day exploit is a cyber attack that occurs on the same day a vulnerability is discovered, exploiting it before developers have an opportunity to patch it.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which JavaScript method can be used to prevent XSS attacks?",
+        "options": [
+          "alert()",
+          "innerHTML()",
+          "textContent()",
+          "document.write()"
+        ],
+        "hash": "8565gh",
+        "generalType": "Javscript + Hacking",
+        "explanation": "Using textContent instead of innerHTML can help prevent XSS attacks by safely inserting text into the DOM without interpreting it as HTML.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is the purpose of Content Security Policy (CSP) in web applications?",
+        "options": [
+          "To speed up page loading times",
+          "To specify allowable content sources and reduce the risk of XSS attacks",
+          "To manage cookies and sessions",
+          "To encrypt data transmitted between the client and server"
+        ],
+        "hash": "cda0gj",
+        "generalType": "Javscript + Hacking",
+        "explanation": "Content Security Policy (CSP) is a security feature that helps prevent XSS attacks by specifying which content sources are trusted and can be loaded.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What is Clickjacking?",
+        "options": [
+          "A type of phishing attack",
+          "A technique to trick users into clicking on something different from what they perceive",
+          "A method to intercept user keystrokes",
+          "An attack that corrupts cookies"
+        ],
+        "hash": "o6y38o",
+        "generalType": "Javscript + Hacking",
+        "explanation": "Clickjacking is a technique where an attacker tricks a user into clicking on something different from what the user perceives, often by hiding malicious content under legitimate content.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "How does a man-in-the-middle (MitM) attack work?",
+        "options": [
+          "By directly attacking the server",
+          "By intercepting and altering communication between two parties",
+          "By installing malware on the user's device",
+          "By exploiting a vulnerability in the database"
+        ],
+        "hash": "1b82ajy",
+        "generalType": "Javscript + Hacking",
+        "explanation": "In a man-in-the-middle (MitM) attack, the attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "Which of the following can help protect against CSRF attacks?",
+        "options": [
+          "Using strong passwords",
+          "Implementing input validation",
+          "Using anti-CSRF tokens",
+          "Enabling HTTPS"
+        ],
+        "hash": "ucjim5",
+        "generalType": "Javscript + Hacking",
+        "explanation": "Using anti-CSRF tokens can help protect against Cross-Site Request Forgery (CSRF) attacks by ensuring that the requests made to the server are from authenticated users.",
+        "score": 20
+      },
+      {
+        "show": true,
+        "type": "TWTO",
+        "question": "What does the Same-Origin Policy (SOP) in web security enforce?",
+        "options": [
+          "It restricts scripts on a web page from accessing data from another web page unless they have the same origin",
+          "It prevents cross-site scripting (XSS) attacks",
+          "It enforces the use of HTTPS for secure communication",
+          "It ensures that cookies are sent only to the origin server"
+        ],
+        "hash": "1no0mw8",
+        "generalType": "Javscript + Hacking",
+        "explanation": "The Same-Origin Policy (SOP) is a security measure that restricts scripts on a web page from making requests to a different domain than the one that served the web page.",
+        "score": 20
+      }
+    ],
+    "endgame": 1717683328715,
+    "quote": {
+      "message": "Wake up with determination. Go to bed with satisfaction.",
+      "author": "George Horace Lorimer"
+    }
+  }
+  

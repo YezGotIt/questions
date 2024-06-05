@@ -12,7 +12,7 @@
         "An attack that intercepts data in transit"
       ],
       "hash": "1xjoom",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "A Cross-Site Scripting (XSS) attack occurs when an attacker injects malicious scripts into content from otherwise trusted websites, which then gets executed by the user's browser.",
       "score": 20
     },
@@ -27,7 +27,7 @@
         "Spoofing a legitimate user's identity"
       ],
       "hash": "14nyvuh",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "SQL Injection is a code injection technique that allows attackers to execute malicious SQL queries in the database, often through user input fields.",
       "score": 20
     },
@@ -42,7 +42,7 @@
         "Cross-Script Resource Forging"
       ],
       "hash": "ysm7it",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "CSRF stands for Cross-Site Request Forgery, an attack where an attacker tricks the victim into submitting a malicious request.",
       "score": 20
     },
@@ -57,7 +57,7 @@
         "An exploit that has been patched but is still used"
       ],
       "hash": "wdyg1v",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "A zero-day exploit is a cyber attack that occurs on the same day a vulnerability is discovered, exploiting it before developers have an opportunity to patch it.",
       "score": 20
     },
@@ -72,7 +72,7 @@
         "document.write()"
       ],
       "hash": "8565gh",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "Using textContent instead of innerHTML can help prevent XSS attacks by safely inserting text into the DOM without interpreting it as HTML.",
       "score": 20
     },
@@ -87,7 +87,7 @@
         "To encrypt data transmitted between the client and server"
       ],
       "hash": "cda0gj",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "Content Security Policy (CSP) is a security feature that helps prevent XSS attacks by specifying which content sources are trusted and can be loaded.",
       "score": 20
     },
@@ -102,7 +102,7 @@
         "An attack that corrupts cookies"
       ],
       "hash": "o6y38o",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "Clickjacking is a technique where an attacker tricks a user into clicking on something different from what the user perceives, often by hiding malicious content under legitimate content.",
       "score": 20
     },
@@ -117,7 +117,7 @@
         "By exploiting a vulnerability in the database"
       ],
       "hash": "1b82ajy",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "In a man-in-the-middle (MitM) attack, the attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other.",
       "score": 20
     },
@@ -132,7 +132,7 @@
         "Enabling HTTPS"
       ],
       "hash": "ucjim5",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "Using anti-CSRF tokens can help protect against Cross-Site Request Forgery (CSRF) attacks by ensuring that the requests made to the server are from authenticated users.",
       "score": 20
     },
@@ -147,12 +147,12 @@
         "It ensures that cookies are sent only to the origin server"
       ],
       "hash": "1no0mw8",
-      "generalType": "Hacking",
+      "generalType": "Javscript + Hacking",
       "explanation": "The Same-Origin Policy (SOP) is a security measure that restricts scripts on a web page from making requests to a different domain than the one that served the web page.",
       "score": 20
     }
   ],
-  "endgame": 1717681714024,
+  "endgame": 1717683328715,
   "quote": {
     "message": "Wake up with determination. Go to bed with satisfaction.",
     "author": "George Horace Lorimer"
