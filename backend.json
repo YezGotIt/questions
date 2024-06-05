@@ -1,139 +1,49 @@
 {
-  "session": "30624",
+  "session": "50624",
   "questions": [
     {
       "show": true,
       "type": "TWTO",
-      "question": "What is a common technique used by hackers to gain access to a user's login credentials by pretending to be a trustworthy entity in electronic communications?",
+      "question": "What is a Cross-Site Scripting (XSS) attack?",
       "options": [
-        "Phishing",
-        "DDoS",
-        "SQL Injection",
-        "Man-in-the-Middle"
+        "An attack that exploits a vulnerability in the DNS protocol",
+        "An attack that injects malicious scripts into web pages viewed by other users",
+        "An attack that targets the database directly",
+        "An attack that intercepts data in transit"
       ],
-      "hash": "11zjbch",
+      "hash": "1xjoom",
       "generalType": "Hacking",
-      "explanation": "Phishing is a social engineering attack where attackers disguise themselves as trustworthy entities to trick victims into revealing sensitive information such as login credentials or credit card numbers.",
+      "explanation": "A Cross-Site Scripting (XSS) attack occurs when an attacker injects malicious scripts into content from otherwise trusted websites, which then gets executed by the user's browser.",
       "score": 20
     },
     {
       "show": true,
       "type": "TWTO",
-      "question": "Which type of malware is designed to secretly record the keystrokes of a user, often used to steal personal information?",
+      "question": "Which of the following is a characteristic of a SQL Injection attack?",
       "options": [
-        "Virus",
-        "Worm",
-        "Keylogger",
-        "Trojan Horse"
+        "Exploiting a buffer overflow vulnerability",
+        "Injecting SQL commands into input fields to manipulate the database",
+        "Intercepting communications between two parties",
+        "Spoofing a legitimate user's identity"
       ],
-      "hash": "vs25fn",
+      "hash": "14nyvuh",
       "generalType": "Hacking",
-      "explanation": "A keylogger is a type of surveillance software that tracks and records every keystroke made on a computer. This information can then be used by hackers to steal sensitive data like passwords and credit card information.",
+      "explanation": "SQL Injection is a code injection technique that allows attackers to execute malicious SQL queries in the database, often through user input fields.",
       "score": 20
     },
     {
       "show": true,
       "type": "TWTO",
-      "question": "What does the acronym DDoS stand for in the context of cybersecurity?",
+      "question": "What does CSRF stand for in web security?",
       "options": [
-        "Dynamic Denial of Service",
-        "Distributed Denial of Service",
-        "Delayed Denial of Service",
-        "Denied Distribution of Service"
+        "Cross-Site Request Forgery",
+        "Cross-Site Resource Fetching",
+        "Client-Side Resource Forcing",
+        "Cross-Script Resource Forging"
       ],
-      "hash": "ye22qj",
+      "hash": "ysm7it",
       "generalType": "Hacking",
-      "explanation": "A Distributed Denial of Service (DDoS) attack involves multiple compromised systems attacking a single target, causing denial of service for users of the targeted system.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "What is the primary purpose of a firewall in network security?",
-      "options": [
-        "To monitor and control incoming and outgoing network traffic",
-        "To encrypt data",
-        "To provide a backup of data",
-        "To detect malware"
-      ],
-      "hash": "1phv4vu",
-      "generalType": "Hacking",
-      "explanation": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules, acting as a barrier between a trusted and untrusted network.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which of the following is a type of attack where the attacker intercepts and alters the communication between two parties without them knowing?",
-      "options": [
-        "SQL Injection",
-        "Phishing",
-        "Man-in-the-Middle",
-        "Brute Force"
-      ],
-      "hash": "1jcdtbj",
-      "generalType": "Hacking",
-      "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly intercepts and relays messages between two parties who believe they are communicating directly with each other.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "In the context of cybersecurity, what is the primary function of an IDS (Intrusion Detection System)?",
-      "options": [
-        "To prevent intrusions",
-        "To detect and alert on potential security breaches",
-        "To encrypt data",
-        "To repair system vulnerabilities"
-      ],
-      "hash": "542ztn",
-      "generalType": "Hacking",
-      "explanation": " An Intrusion Detection System (IDS) monitors network or system activities for malicious activities or policy violations and reports these to a management station.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which type of cyber attack involves an attacker inserting malicious code into a legitimate website's script to steal data or redirect users?",
-      "options": [
-        "Cross-Site Scripting (XSS)",
-        "SQL Injection",
-        "Phishing",
-        "Ransomware"
-      ],
-      "hash": "q6lvm0",
-      "generalType": "Hacking",
-      "explanation": "Cross-Site Scripting (XSS) is a security vulnerability that allows an attacker to inject malicious scripts into content from otherwise trusted websites, which can then execute in the browser of the victim who visits the compromised site.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "What is the main difference between a virus and a worm in the context of malware?",
-      "options": [
-        "A virus can replicate itself, while a worm cannot",
-        "A worm can replicate itself and spread without user intervention, while a virus needs to attach to a host file and requires user action to spread",
-        "A virus is a type of adware, while a worm is not",
-        "There is no difference; both are the same"
-      ],
-      "hash": "xv0svb",
-      "generalType": "Hacking",
-      "explanation": "A worm is a type of malware that can replicate itself and spread to other computers without any user action, whereas a virus attaches itself to a host file and requires user action to spread.",
-      "score": 20
-    },
-    {
-      "show": true,
-      "type": "TWTO",
-      "question": "Which cybersecurity principle ensures that data cannot be altered by unauthorized users?",
-      "options": [
-        "Confidentiality",
-        "Availability",
-        "Integrity",
-        "Non-repudiation"
-      ],
-      "hash": "1putx5x",
-      "generalType": "Hacking",
-      "explanation": "Integrity is a security principle that ensures data remains accurate and unaltered by unauthorized users, maintaining its consistency and trustworthiness.",
+      "explanation": "CSRF stands for Cross-Site Request Forgery, an attack where an attacker tricks the victim into submitting a malicious request.",
       "score": 20
     },
     {
@@ -150,11 +60,101 @@
       "generalType": "Hacking",
       "explanation": "A zero-day exploit is a cyber attack that occurs on the same day a vulnerability is discovered, exploiting it before developers have an opportunity to patch it.",
       "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which JavaScript method can be used to prevent XSS attacks?",
+      "options": [
+        "alert()",
+        "innerHTML()",
+        "textContent()",
+        "document.write()"
+      ],
+      "hash": "8565gh",
+      "generalType": "Hacking",
+      "explanation": "Using textContent instead of innerHTML can help prevent XSS attacks by safely inserting text into the DOM without interpreting it as HTML.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "What is the purpose of Content Security Policy (CSP) in web applications?",
+      "options": [
+        "To speed up page loading times",
+        "To specify allowable content sources and reduce the risk of XSS attacks",
+        "To manage cookies and sessions",
+        "To encrypt data transmitted between the client and server"
+      ],
+      "hash": "cda0gj",
+      "generalType": "Hacking",
+      "explanation": "Content Security Policy (CSP) is a security feature that helps prevent XSS attacks by specifying which content sources are trusted and can be loaded.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "What is Clickjacking?",
+      "options": [
+        "A type of phishing attack",
+        "A technique to trick users into clicking on something different from what they perceive",
+        "A method to intercept user keystrokes",
+        "An attack that corrupts cookies"
+      ],
+      "hash": "o6y38o",
+      "generalType": "Hacking",
+      "explanation": "Clickjacking is a technique where an attacker tricks a user into clicking on something different from what the user perceives, often by hiding malicious content under legitimate content.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "How does a man-in-the-middle (MitM) attack work?",
+      "options": [
+        "By directly attacking the server",
+        "By intercepting and altering communication between two parties",
+        "By installing malware on the user's device",
+        "By exploiting a vulnerability in the database"
+      ],
+      "hash": "1b82ajy",
+      "generalType": "Hacking",
+      "explanation": "In a man-in-the-middle (MitM) attack, the attacker secretly intercepts and possibly alters the communication between two parties who believe they are directly communicating with each other.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "Which of the following can help protect against CSRF attacks?",
+      "options": [
+        "Using strong passwords",
+        "Implementing input validation",
+        "Using anti-CSRF tokens",
+        "Enabling HTTPS"
+      ],
+      "hash": "ucjim5",
+      "generalType": "Hacking",
+      "explanation": "Using anti-CSRF tokens can help protect against Cross-Site Request Forgery (CSRF) attacks by ensuring that the requests made to the server are from authenticated users.",
+      "score": 20
+    },
+    {
+      "show": true,
+      "type": "TWTO",
+      "question": "What does the Same-Origin Policy (SOP) in web security enforce?",
+      "options": [
+        "It restricts scripts on a web page from accessing data from another web page unless they have the same origin",
+        "It prevents cross-site scripting (XSS) attacks",
+        "It enforces the use of HTTPS for secure communication",
+        "It ensures that cookies are sent only to the origin server"
+      ],
+      "hash": "1no0mw8",
+      "generalType": "Hacking",
+      "explanation": "The Same-Origin Policy (SOP) is a security measure that restricts scripts on a web page from making requests to a different domain than the one that served the web page.",
+      "score": 20
     }
   ],
-  "endGame": 1717474947154,
+  "endgame": 1717681714024,
   "quote": {
-    "message": "Do one thing every day that scares you.",
-    "author": "Eleanor Roosevelt"
+    "message": "Wake up with determination. Go to bed with satisfaction.",
+    "author": "George Horace Lorimer"
   }
 }
